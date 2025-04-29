@@ -1,0 +1,187 @@
+.about-image {
+    width: 90%;
+    margin: 60px auto;
+    padding: 40px 0;
+    padding-left: 80px;
+}
+
+.section-2 .ceo-images-contianer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    margin-left: 100px;
+}
+
+.section-2 .ceo-images-contianer .ceo-image img {
+    width: 400px;
+    height: 420px;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .about-ceo {
+    color: #2B2B2B;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .ceo-quote {
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 50px;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name h4 {
+    color: #2B2B2B;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 2.1rem;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name p {
+    color: #2B2B2B;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .ceo-social-icons {
+    margin-left: 50px;
+}
+
+.section-2 .ceo-images-contianer .ceo-content .ceo-social-icons svg {
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.section-2 .section-2-ceo-images .hr-email {
+    margin-left: 100px;
+    padding: 20px 0;
+    padding-bottom: 100px;
+}
+
+.section-2 .section-2-ceo-images .hr-email a {
+    color: #2B2B2B;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.client-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px auto;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name h4 {
+        font-size: 1.8rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name p {
+        font-size: 1.2rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .ceo-quote {
+        margin: 30px;
+        margin-left: 50px;
+        font-size: 1.2rem;
+    }
+
+    .client-images {
+        margin: 40px auto;
+    }
+
+    .client-images svg {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-2 .ceo-images-contianer {
+        margin: 50px auto;
+        margin-left: 60px;
+    }
+    .section-2 .ceo-images-contianer .ceo-image img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name h4 {
+        font-size: 1.2rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name p {
+        font-size: 1rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .ceo-quote {
+        font-size: 0.8rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .ceo-social-icons svg {
+        margin: 0 8px;
+        width: 30px;
+        height: 30px;
+    }   
+}
+@media screen and (max-width: 426px) {
+    .about-image {
+        margin: 30px auto;
+        padding: 25px 0;
+        margin-left: 40px;
+    }
+
+    .section-2 .ceo-images-contianer {
+        flex-direction: column;
+        margin: 40px auto;
+        margin-left: 20px;
+    }
+    .section-2 .ceo-images-contianer .ceo-image img {
+        width: 260px;
+        height: 280px;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name h4 {
+        font-size: 1.2rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .about-ceo .ceo-name p {
+        font-size: 1rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .ceo-quote {
+        font-size: 0.8rem;
+    }
+
+    .section-2 .ceo-images-contianer .ceo-content .ceo-social-icons svg {
+        margin: 0 8px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-2 .section-2-ceo-images .hr-email {
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .section-2 .section-2-ceo-images .hr-email a {
+        font-size: 1.6rem;
+    }
+
+    .client-images {
+        margin: 30px auto;
+        margin-left: 40px;
+    }
+
+    .client-images svg {
+        width: 100px;
+        height: 100px;
+    }
+}
